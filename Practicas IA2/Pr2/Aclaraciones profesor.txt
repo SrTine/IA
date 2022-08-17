@@ -1,0 +1,12 @@
+Parte 1. Nota: 3,3
+
+    Debíais usar la frecuencia de términos, y no el TF-IDF
+    Os ha faltado analizar el error del k-NN en detalle.
+    En la parte de Word-embeddings, no estáis haciendo el vector que combina las embeddings, sino solamente usando el vocabulario de las embeddings.
+    No habéis hecho la parte de los mensajes mal clasificados.
+    A la hora de mostrar las palabras relevantes de las clases mostráis las etiquetas mal (p.ej. entertainment es tech y viceversa)
+
+Parte 2. Nota: 3,8
+
+    En la parte de Word-embeddings, no estáis haciendo el vector que combina las embeddings, sino solamente usando el vocabulario de las embeddings.
+    No habéis hecho la parte del análisis del error.

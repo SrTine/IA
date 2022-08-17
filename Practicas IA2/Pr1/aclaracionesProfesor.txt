@@ -1,0 +1,22 @@
+Grupo 05. Nota: 8,3
+
+Parte 1. Nota: 9,4
+
+    Habéis analizado las variables cuantitativas en relación con las variables categóricas, lo cual es un extra.
+    Cuando habláis de la desviación típica, no tenéis muy claro que, salvo comportamientos excepcionales, no va a llegar a los valores extremos observados (ya que no deja de ser una "media" de las desviaciones sobre el valor promedio).
+    Habéis también hecho más trabajo del necesario en el análisis para determinar el número de clusters. Sin embargo, lo estáis haciendo solamente con 3 variables, sin tener en cuenta el importe del préstamo. Eso invalida los resultados que habéis obtenido.
+    Al no haber usado las variables pedidas el análisis también tiene menos interés.
+
+Parte 2. Nota: 6
+
+    Cuando analizáis la correlación, cuidado, estamos en un problema de clasificación, no de regresión. Además, medís correlación lineal y los clasificadores que usamos pueden explotar la no-linealidad de los datos.
+    Hay partes del análisis que hacéis que no tienen una utilidad clara. Os complicáis la vida en exceso.
+    En la elección del parámetro óptimo decís: "cuanto mayor sea min_samples_split, peor generaliza el conjunto de entrenamiento". Esto no es correcto porque aprende peor el conjunto de entrenamiento pero como el error de test es estable y la diferencia con el error de test decrece, pues en realidad está "generalizando" mejor, es decir, sobreaprendiendo menos. No os lo he restado en la nota, pero tened en cuenta el matiz.
+    Falta el análisis del árbol.
+    Para pintar menos niveles en plot_tree está el parámetro max_depth
+    La parte de análisis del error, tiene código en el que se recalcula el óptimo pero usando la profundidad. Una errata mía os ha confundido. En cualquier caso, no analizáis nada
+
+Parte 3. Nota: 9,5
+
+    Quizás sea más adecuado el escalamiento minmax porque las variables son muy asimétricas y no sigue la distribución normal.
+    La parte de optimización y de análisis está muy bien.

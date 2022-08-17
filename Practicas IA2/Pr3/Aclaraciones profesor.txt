@@ -1,0 +1,11 @@
+Problemas encontrados
+
+    Faltan las explicaciones de la consulta 1.
+    En general, algunas consultas tienen muy pocas explicaciones. El enunciado indicaba que las explicaiones eran obligatorias y que supondrían la no valoración de la consulta. No he sido tan estricto pero deberíais haber tenido más cuidado.
+    En la consulta 3 hay que usar un + porque el * incluye el propio escritor.
+    La consulta 5 no es correcta porque hace un producto cartesiano de los premios y los libros. Además no está muy comentada.
+    En la consulta 6 no estáis recogiendo los "subtipos" de ciencia ficción, como se pide.
+    En la C7 como la fecha es atributo de la obra no se debe agrupar por ella. De hecho al agrupar, si hay más te hace un grupo y ya el MIN que ponéis en el SELECT pierde sentido.
+    En la C9 os complicáis haciendo un anidamiento de consultas que no es necesario y que hace que el resultado no es correcto. Se puede hacer con una consulta y un filter. Además no hacéis que sea instancia de "literary work".
+    En la C10 debíais usar FILTER para excluir del listado de autores al propio Asimov. También os ha faltado poner comentarios en la consulta.
+    En la C11 al haber puesto como entidad a Hans Zimmer (de qué me sonará eso a mí) el resultado no tiene sentido.
